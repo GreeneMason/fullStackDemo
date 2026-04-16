@@ -13,7 +13,7 @@ app.use(express.json());
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: 'root',
+  password: '',
   database: 'fullstack_db',
   waitForConnections: true,
   connectionLimit: 10,

@@ -72,7 +72,7 @@ function App() {
         )}
 
         {loading ? (
-          <div className="loading">Loading greetings...</div>
+          <div className="loading">Loading greeting...</div>
         ) : (
           <>
             <section className="greetings-section">
